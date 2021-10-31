@@ -13,7 +13,7 @@ struct ContentView: View {
         NavigationView {
             HStack(spacing: 50) {
                 Text("都道府県")
-                Text("\(selectedPrefecture)")
+                Text(selectedPrefecture)
                 Button("変更") {
                     isShowInputView = true
                 }
